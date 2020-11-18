@@ -1,0 +1,29 @@
+{
+  "name": "legoFilms",
+  "version": "1.0.0",
+  "description": "I practice with movie APIs.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legodev23/legoFilms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legodev23/legoFilms/issues"
+  },
+  "homepage": "https://github.com/legodev23/legoFilms#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
+  }
+}
