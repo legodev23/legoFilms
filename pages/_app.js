@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { Provider } from "react-redux";
+import store from "../redux/store";
 import "../styles/global.css";
 
 export default function MyApp({ Component, pageProps }) {
@@ -7,7 +9,9 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <title>legoFilms</title>
       </Head>
-      <Component {...pageProps} />
+      <Provider store={store}>
+        <Component {...pageProps} />
+      </Provider>
     </>
   );
 }
